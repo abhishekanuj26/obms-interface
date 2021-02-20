@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sign in</title>
+    <link rel="stylesheet" href="./signup.css">
+   
+</head>
+
+<body>
+    <div class="signup">
+        <form name="myform" method="post" action="/signup" onsubmit="return validateform()">
+            <h2 class="heading" style="color:#fff">Sign Up</h2>
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="text" name="username" placeholder="username" required />
+            <input type="email" name="emailid" placeholder="Email id" required />
+            <input type="password" name="password" placeholder="password" required />
+            <input type="password" name="confirmpassword" placeholder="confirm password" />
+            <input type="number" name="phonenumber" placeholder="Phone number" /><br><br>
+            <input class="heading" type="submit" value="signup"><br><br>
+        </form>
+    </div>
+</body>
+
+
+</html>
